@@ -11,5 +11,5 @@
 - pip install pipreqs
 - pipreqs /home/project/location
 
-Run steamlit app
-streamlit run dashboard.py
+- Run steamlit app
+- streamlit run dashboard.py
