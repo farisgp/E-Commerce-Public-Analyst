@@ -51,7 +51,7 @@ def create_rfm_df(df):
     rfm_df.drop("max_order_timestamp", axis=1, inplace=True)
     return rfm_df
 
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("Dashboard/all_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
 all_df.sort_values(by="order_id", inplace=True)
